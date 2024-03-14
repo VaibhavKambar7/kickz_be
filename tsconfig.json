@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2016", // Can be any valid JS version like "es6", "es2022"
+
+    // Module system
+    "module": "commonjs", // Can be "commonjs" or "esnext"
+
+    // Strictness
+    "strict": true, // Enables stricter type checking
+
+    // ES6 module interoperability
+    "esModuleInterop": true, // Enables compatibility with ES6 modules
+
+    // Skip library check
+    "skipLibCheck": false, // By default, checks default library files
+
+    // Force consistent file naming case
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
+  }
+}
